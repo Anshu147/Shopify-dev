@@ -99,10 +99,48 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "1760524578b4cb238a": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "17605245969d99cf7d": {
+      "type": "apps",
+      "blocks": {
+        "essential_loyalty_landing_page_how_it_works_MVL3E9": {
+          "type": "shopify://apps/essential-loyalty/blocks/landing-page-how-it-works/bb1b2244-edbc-4be2-b271-04fde65a5c2f",
+          "settings": {
+            "hiw_background_color": "",
+            "hiw_section_heading_color": "#000000",
+            "hiw_section_text_color": "#000000",
+            "hiw_sequence_type": "images",
+            "hiw_step_one_image": "shopify://shop_images/image-for-number-1.png",
+            "hiw_step_two_image": "shopify://shop_images/image-for-number-1.png",
+            "hiw_step_three_image": "shopify://shop_images/image-for-number-1.png",
+            "hiw_step_number_color": "#000000",
+            "hiw_step_heading_color": "#000000",
+            "hiw_step_text_color": "#000000",
+            "hiw_step_number_font_size": 25,
+            "hiw_step_heading_font_size": 20,
+            "hiw_step_text_font_size": 16,
+            "hiw_step_image_height": 50
+          }
+        }
+      },
+      "block_order": [
+        "essential_loyalty_landing_page_how_it_works_MVL3E9"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
-    "related-products"
+    "related-products",
+    "1760524578b4cb238a",
+    "17605245969d99cf7d"
   ]
 }

@@ -75,10 +75,31 @@
         "padding_top": 44,
         "padding_bottom": 36
       }
+    },
+    "1760526624b10a4e94": {
+      "type": "apps",
+      "blocks": {
+        "essential_loyalty_extension_button_RNPrc4": {
+          "type": "shopify://apps/essential-loyalty/blocks/extension-button/bb1b2244-edbc-4be2-b271-04fde65a5c2f",
+          "settings": {
+            "image": "shopify://shop_images/image-for-number-1.png",
+            "link_css": "header__icon link focus-inset",
+            "icon_css": "icon",
+            "custom_css": ""
+          }
+        }
+      },
+      "block_order": [
+        "essential_loyalty_extension_button_RNPrc4"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "image_banner",
-    "featured_collection"
+    "featured_collection",
+    "1760526624b10a4e94"
   ]
 }
